@@ -2,7 +2,7 @@
 
 //database_connection.php
 
-$connect = new PDO("mysql:host=localhost;dbname=chat;charset=utf8mb4", "root", "");
+$connect = new PDO("mysql:host=chatforall-mysqldbserver.mysql.database.azure.com;dbname=chat;charset=utf8mb4", "mysqldbuser@chatforall-mysqldbserver", "01051999Chau");
 
 date_default_timezone_set('Asia/Ho_Chi_Minh');
 
