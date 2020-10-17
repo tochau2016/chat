@@ -4,7 +4,7 @@
 
 $connect = new PDO("mysql:host=chatforall-mysqldbserver.mysql.database.azure.com;dbname=chat;charset=utf8mb4", "mysqldbuser@chatforall-mysqldbserver", "01051999Chau");
 
-date_default_timezone_set('Asia/Ho_Chi_Minh');
+date_default_timezone_set('UTC');
 
 function fetch_user_last_activity($user_id, $connect)
 {
