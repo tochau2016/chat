@@ -1,7 +1,7 @@
 <!--
 //register.php
 !-->
-
+<!--Test!-->
 <?php
 
 include('database_connection.php');
